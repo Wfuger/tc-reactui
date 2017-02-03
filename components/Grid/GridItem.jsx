@@ -1,15 +1,7 @@
 import React, { Component } from 'react';
 
 class GridItem extends Component {
-  constructor(props) {
-    super(props);
-    console.log('type', props.type);
-    console.log('value', props.value);
-    
-  }
-  
   render() {
-
     /* Custom Styling config - Start */
 
     let className = this.props.className ? [...this.props.className] : [];
